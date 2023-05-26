@@ -157,3 +157,18 @@ print(text)
 
 x = 300
 print(isinstance(x, int))
+
+n = 3.5
+print(type(n))
+
+h = str(n)
+print(type(h))
+print(float(h))
+i = float(h)
+print(int(i))
+
+# CONVERTING DATA TYPES 
+
+user_grades = ["54", "84", "90", "67"]
+grades = [int(g) for g in user_grades]
+print(grades)
