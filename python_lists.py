@@ -43,7 +43,7 @@ print("\nHello You")
 loopCount = 0
 
 while loopCount < len(thislist):
-    print(thislist[loopCount])
+    print( str(loopCount) +":" + thislist[loopCount] )
     loopCount +=1
 print("\n")
 
@@ -66,20 +66,21 @@ print("\n")
 
 
 
-# Using a List comrehension to create a new List based on certain conditions
+# Using a List comprehension to create a new List based on certain conditions
+'''
+    Example 1:
+'''
 fruitList = ["apple", "Mango", "orange", "star-apple", "cherry", "pawpaw", "guava"]
 newFruitList = [eachItem for eachItem in fruitList if "a" in eachItem and len(eachItem) != 6]
 
 print(newFruitList)
 
-
-
-
-    
-
-
-
-
+'''
+    Example 2:
+'''
+ranges = range(0, 10)
+squares = [eachNumber **2 for eachNumber in (ranges)]
+print(squares)
 
 
 
@@ -88,4 +89,7 @@ print("\n")
 
 range1 = 8
 print(range(range1))
+
+for item in range(range1):
+    print(item)
 

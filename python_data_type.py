@@ -147,7 +147,7 @@ print(text)
 # Booleans represents one of two values: "True" or "False"
 # NB: "bool()" method is used to return a boolean value of either "True" or "False"
 # Almost any value is evaluated to "True" if it has a content.
-# Any nstring is "True", except empty strings.
+# Any string is "True", except empty strings.
 # Any number is "True", except 0.
 # The value "None" also returns a "False" value
 # Any list, tuple, set, and dictionary are "True", except empty ones. 

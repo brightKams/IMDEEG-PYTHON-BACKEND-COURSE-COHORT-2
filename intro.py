@@ -85,7 +85,7 @@ Myfunction(pythonExperience)
 '''
     The "global" keyword is used to create a global variable inside a function. Ordinarily, when variables are created inside a function, they are local variables, but when they are declared with the "global" keyword, it becomes a global variable.
 
-    Also, you can use the "global" keyword to change the value of a global variable oinside a function
+    Also, you can use the "global" keyword to change the value of a global variable inside a function
     EG:
  '''
 
