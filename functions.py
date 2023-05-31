@@ -21,3 +21,19 @@ greetUser()
 def userGreet(username):
     print("Hello", username)
 userGreet("Bright")
+
+
+# A Default Parameter Function:
+def makePizza(topping = "bacon"):
+    print("Have a " + topping + " pizza" ) 
+
+makePizza()
+makePizza("Peperroni")
+print()
+# Returning a value
+
+def add_numbers(x, y):
+    return x + y
+sum = add_numbers(3, 5)
+print(add_numbers(3, 5))
+
