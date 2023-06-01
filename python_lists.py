@@ -93,3 +93,59 @@ print(range(range1))
 for item in range(range1):
     print(item)
 
+
+
+'''
+    Maniputing a List of Items
+'''
+
+listItems = list(("Bright", "Ohakam", "Chidozie", "item1" ))
+'''OR'''
+listItems1 = ["Bright", "Ohakam", "Chidozie", "item1"]
+
+#  1. Removing an Item from a List
+# list.remove("item to be removed")
+listItems.remove("item1")
+print(listItems)
+
+
+
+#  2. Adding and replacing an Item into a position in the List
+# list.insert("index position number", "item to be added")
+listItems.insert(4, "item2")
+
+# OR
+    # list.replace("item to be replaced", "substitute item")
+
+print(listItems)
+
+#  3. Adding an item at the end of a list
+#  list.append("item to be added at the end of the list")
+
+
+#  4. Changing the item in a list to another value
+#  list[index number of Item] = "new value for the item at the index number"
+
+#  5. Printing a specific item at a position in the list object
+#  print(list[index number])
+print(listItems[2])
+
+#  6. Joining two different lists to forma single list
+#  print(list1.exxtend(list2))
+#  EXAMPLE:
+
+print()
+print()
+
+
+list1 = ["Chidozie", "Ohakam", "Bright"]
+print(list1)
+list2 = ["Charlie", "Oscar", "Bravo"]
+print(list2)
+list1.extend(list2)
+print(list1)
+
+
+
+
+
