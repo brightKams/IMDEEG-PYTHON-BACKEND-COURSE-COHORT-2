@@ -26,6 +26,3 @@ print(counts.index("Ohakam"))
 # print(counts)
 
 
-
-
-

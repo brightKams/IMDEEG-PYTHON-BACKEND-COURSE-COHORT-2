@@ -26,7 +26,7 @@ print(list1)
 
 # Ordered - When we say that lists are ordered, it means that the items have a defined order, and that ordeer will not change. If you add new items to a list, the new item will be placed at the end of the list.
 
-# LOOPING THEOUGH A LIST
+# LOOPING THROUGH A LIST
 
 thislist = ["apple", "mango", "orange"]
 
